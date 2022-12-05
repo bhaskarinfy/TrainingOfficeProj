@@ -1,7 +1,6 @@
 <?php
-$mysqli = new
-mysqli("localhost","root","","traininginsdb");
-// Check connection
+$mysqli = new mysqli("localhost","root","","traininginsdb");
+// Check connection for mysql connection
 if ($mysqli -> connect_errno) 
 {  
 echo "Failed to connect to MySQL; " .
